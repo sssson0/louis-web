@@ -1,0 +1,11 @@
+.nav-search-box{
+    color: chocolate;
+    border-color: chocolate;
+
+}
+.nav-search-box:hover{
+    color: white;
+    background-color: chocolate;
+    border-color: chocolate;
+
+}

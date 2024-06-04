@@ -1,3 +1,7 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .nav-search-box{
     color: chocolate;
     border-color: chocolate;
@@ -8,4 +12,62 @@
     background-color: chocolate;
     border-color: chocolate;
 
+}
+.first-main img{
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.first-main p{
+    font-size: 20px;
+}
+.first-main-item{
+    margin: 1rem 0;
+}
+.first-main-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+  }
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.first-line{
+    border-bottom: 1px solid #392d23;
+    font-weight: 500;
+}
+.second-line div:hover{
+    color: chocolate;
+}
+
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+    }
+    .second-line{
+        font-size: 10px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+    
+    .third-line{
+        display: block !important;
+        padding: 2rem 0;
+        padding-left: 2rem;
+        
+    }
+    .second-line :first-child{
+        margin-bottom: 1rem;
+    }
+}
+.third-line{
+    display: none;
+    font-weight: 300;
 }
